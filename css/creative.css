@@ -1,0 +1,181 @@
+* {
+
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    z-index: 999;
+    position: fixed;
+    padding: 10px 150px;
+    direction: rtl;
+    border-radius: 0 0 40px 40px;
+
+}
+
+.logo {
+    padding-left: 950px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: aliceblue;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 30px;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: white;
+
+}
+
+
+.card-front,
+.card-back {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(45, 43, 112, 0.167), rgba(11, 11, 130, 0.162));
+    padding: 50px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+
+}
+
+.inner-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+
+}
+
+.card-back {
+    transform: rotateY(180deg);
+
+}
+
+.card {
+    width: 325px;
+    height: 450px;
+    box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.9);
+    perspective: 1000px;
+    text-shadow: 100%;
+
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    direction: rtl;
+    background: url();
+    opacity: 1;
+    color: rgb(17, 16, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/pexels-mike-1171084.jpg);
+    background-size: cover;
+}
+
+.card h2 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    background: transparent;
+    border: 1px solid black;
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: rgb(20, 19, 19);
+
+}
+
+::placeholder {
+    color: rgb(18, 15, 15);
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid white;
+    margin: 35px 0px 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-btn {
+    position: relative;
+}
+
+.submit-btn::after {
+    content: '\27a4';
+    color: #333;
+    line-height: 32px;
+    font-size: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+
+span {
+    font-size: 13px;
+    margin-left: 10px;
+
+}
+
+.card .btn {
+    margin-top: 70px;
+}
+
+.fen {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 8px;
+
+}

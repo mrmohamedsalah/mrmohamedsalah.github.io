@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #0f0e0e;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    direction: rtl;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
+.navigation a {
+    color: rgb(229, 211, 188);
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-right: 30px;
+}
+
+.logo {
+    color: rgb(229, 211, 188);
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+
+.title {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.card {
+    background-color: rgb(13, 9, 9);
+    width: 19.25em;
+    color: antiquewhite;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 100%);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 15px;
+    transition: 0.8s ease;
+    opacity: 0.9;
+    text-shadow: #790f0f;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: goldenrod;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info h3 {
+    color: antiquewhite;
+    padding-right: 0;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px;
+
+
+
+}
+
+.info p {
+    padding-left: 20px;
+}
+
+
+
+.info h3 a:hover {
+    color: blueviolet;
+    opacity: 0.8;
+
+}
+
+h3 a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.fas {
+    font-weight: 700;
+}
+
+footer {
+    color: antiquewhite;
+    background-color: black;
+    display: flex;
+    padding: 15px;
+    border-radius: 20px 20px 0 0;
+    margin-top: 30px;
+    opacity: 0.6;
+
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.he1 {
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+    clear: right;
+    font-size: 3em;
+}
+
+.det1 {
+    text-align: right;
+    font-size: 2em;
+}
+
+.det2 {
+    text-align: right;
+    font-size: 2em;
+}
+
+.det3 {
+    text-align: right;
+    font-size: 2em;
+}
+
+.det4 {
+    text-align: right;
+    font-size: 2em;
+}
+
+.det5 {
+    text-align: right;
+    font-size: 2em;
+}
+
+.foot {
+    padding-left: 44%;
+
+}
+
+.foot2 {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Hp\Downloads\my project\css\creative.css">
+    <title>Document</title>
+    <script src="C:\Users\Hp\Downloads\my project\js\style.js"></script>
+</head>
+
+<body>
+    <script data-src="C:\Users\Hp\Downloads\my project\js\style.js"></script>
+    <header>
+        <a href="#" class="logo">عالم الرياضة</a>
+        <nav class="navigation">
+            <a href="C:\Users\Hp\Downloads\my project\main-page.html"> الصفحة الرئيسية</a>
+
+
+        </nav>
+
+    </header>
+    <section class="container">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                    <h2>login</h2>
+                    <form>
+                        <input type="email" name="" class="input-box" placeholder="ادخل حسابك" required>
+                        <input type="password" name="" class="input-box" placeholder="ادخل رمز الدخول " required>
+                        <button type="submit" class="submit-btn"> ادخال</button>
+                        <input type="checkbox"><span>تذكرني </span>
+                    </form>
+                    <button type="button" class="btn" onclick="openregister()">انا مستخدم جديد</button>
+                    <a class="fen" href="#"> نسيت كلمة السر
+
+                    </a>
+                </div>
+                <div class="card-back">
+                    <h2>register </h2>
+                    <form>
+                        <input type="text " name="" class="input-box" placeholder="ادخل اسمك" required>
+                        <input type="email" name="" class="input-box" placeholder="ادخل حسابك" required>
+                        <input type="password" name="" class="input-box" placeholder="ادخل رمز الدخول " required>
+                        <button type="submit" class="submit-btn"> ادخال</button>
+                        <input type="checkbox"><span>تذكرني </span>
+                    </form>
+                    <button type="button" class="btn" onclick="openlogin()">لدي حساب </button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var card = document.getElementById("card");
+        function openregister() {
+            card.style.transform = "rotateY(-180deg)";
+
+        }
+        function openlogin() {
+            card.style.transform = "rotateY(0deg)";
+
+        }
+
+
+
+    </script>
+
+
+</body>
+
+</html>

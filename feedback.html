@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Hp\Downloads\my project\css\css.css">
+    <title>feedback form</title>
+</head>
+
+<body>
+
+    <header>
+        <a>عالم الرياضة</a>
+        <div class="lnk">
+            <a href="C:\Users\Hp\Downloads\my project\main-page.html" style="padding-right: 625px; ">الصفحة الرئيسية</a>
+        </div>
+    </header>
+
+
+    <div class="wrap">
+        <table>
+            <form action="" method="post">
+                <h1>feedback form</h1>
+                <hr>
+                <tr>
+                    <td colspan="2">
+                        <label id="rate">How do you rate your overall experience:</label>
+                        <br />
+                        <div class="rt">
+                            <input type="radio" name="rate" value="good">Good
+                            <input class="rte" type="radio" name="rate" value="average">Average
+                            <input class="rte" type="radio" name="rate" value="bad">bad
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text_field">
+                        <lable>Fullname:</lable>
+                        <br />
+                        <input class="txt" type="text" name="Fullname">
+                    </td>
+                    <td class="text_field">
+                        <lable>Email:</lable>
+                        <br />
+                        <input class="txt" type="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text_field">
+                        <lable>Age:</lable>
+                        <br />
+                        <input class="txt" type="number" min="1" max="150" name="age">
+                    </td>
+                    <td class="text_field">
+                        <lable>Phone number:</lable>
+                        <br />
+                        <input class="txt" type="tel" name="mobile">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text_field">
+                        <label>Your message:</label>
+                        <textarea class="txtarea"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <a href="#">
+                            <input type="button" value="submit">
+                        </a>
+                    </td>
+            </form>
+        </table>
+    </div>
+</body>
+
+</html>

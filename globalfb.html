@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عالم الرياضة</title>
+    <link href="C:\Users\Hp\Downloads\my project\css\globalft.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">عالم الرياضة</a>
+        <nav class="navigation">
+            <a href="C:\Users\Hp\Downloads\my project\main-page.html">الصفحة الرئيسية</a>
+            <a href="C:\Users\Hp\Downloads\my project\volleyball.html">كرة الطائرة</a>
+            <a href="C:\Users\Hp\Downloads\my project\bskt.html">كرة سلة</a>
+            <a href="C:\Users\Hp\Downloads\my project\tennis.html">تنس</a>
+            <a href="C:\Users\Hp\Downloads\my project\esport.htm">الرياضيات الألكترونية</a>
+            <a href="C:\Users\Hp\Downloads\my project\hand.html">كرة اليد</a>
+            <a href="C:\Users\Hp\Downloads\my project\aboutus.html">About us</a>
+
+        </nav>
+    </header>
+    <br><br><br>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <a href="news-1.html">
+                <img src="C:\Users\Hp\Downloads\my project\images\mancity.jpg"
+                    style="width: 1000px; height: 500px;"></a>
+            <div class="text">السيتي يهزم ريال مدريد في مباراة السبعة اهداف</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <a href="news-2.html">
+                <img src="C:\Users\Hp\Downloads\my project\images\fcb2.jpg" style="width: 1000px;height: 500px;"></a>
+            <div class="text">بايرن ميونخ يتوج بطلاً للدورى الألمانى بثلاثية ضد دورتموند </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <a href="news-3.html">
+                <img src="C:\Users\Hp\Downloads\my project\images\milan2.jpg" style="width: 1000px;height: 500px;"></a>
+            <div class="text">صراع ناري بين قطبي ميلان علي حسم لقب الدوري </div>
+        </div>
+        <div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <a href="news-4.html">
+                    <img src="C:\Users\Hp\Downloads\my project\images\real.jpg" style="width:1000px; height: 500px"></a>
+                <div class="text"> ريال مدريد يقترب من حسم الدوري الاسباني للمرة ال35 </div>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <a href="news-5.html">
+                <img src="C:\Users\Hp\Downloads\my project\images\liver.jpg" style="width: 1000px; height: 500px;"></a>
+            <div class="text">لازال الصراع بين السيتي و الليفر علي حسم الدوري قائما</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <br><br><br>
+    <div class="buttons">
+        <button class="btn-1">لأخبار الدوري المصري</button>
+    </div>
+    <section>
+        <h1 class="title"> للتواصل معنا </h2>
+            <div class="content">
+                <div class="card">
+                    <div class="icon">
+                        <b class="fas">@</b>
+                    </div>
+                    <div class="info">
+                        <h2><a href="#">email</a></h3>
+                            <p>3alm123-elryadh123@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <p class="foot">&copy;<span class="foot2"> 3alm elryadh </span></p>
+    </footer>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

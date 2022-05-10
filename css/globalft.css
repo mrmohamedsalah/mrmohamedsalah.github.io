@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #0f0e0e;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    direction: rtl;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
+.navigation a {
+    color: rgb(229, 211, 188);
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-right: 30px;
+}
+
+.logo {
+    color: rgb(229, 211, 188);
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: white;
+    font-size: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    max-height: 100vh;
+}
+
+.btn-1 {
+    width: 300px;
+    height: 100px;
+    border: none;
+    color: black;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline: none;
+    border: 3px solid rgb(106, 90, 205);
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.btn-1:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.btn-1:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: rgb(106, 90, 205);
+}
+
+.btn-1:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+.title {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.card {
+    background-color: rgb(13, 9, 9);
+    width: 19.25em;
+    color: antiquewhite;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 100%);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 15px;
+    transition: 0.8s ease;
+    opacity: 0.9;
+    text-shadow: #790f0f;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: goldenrod;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info h3 {
+    color: antiquewhite;
+    padding-right: 0;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px;
+
+
+
+}
+
+.info p {
+    padding-left: 20px;
+}
+
+
+
+.info h3 a:hover {
+    color: blueviolet;
+    opacity: 0.8;
+
+}
+
+h3 a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.fas {
+    font-weight: 700;
+}
+
+footer {
+    color: antiquewhite;
+    background-color: black;
+    display: flex;
+    padding: 15px;
+    border-radius: 20px 20px 0 0;
+    margin-top: 30px;
+    opacity: 0.6;
+
+
+}
+
+.foot {
+    padding-left: 44%;
+
+}
+
+.foot2 {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
