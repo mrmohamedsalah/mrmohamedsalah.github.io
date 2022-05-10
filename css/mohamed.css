@@ -313,7 +313,14 @@ footer{
 .dark-mode body{
    color:purple;
     font-weight:600;
+    back-ground:grey;
+    
 }
+.dark-mode footer{
+    color:black;
+    back-ground: grey;
+}
+
 
   .about a{
       text-decoration: none ;
