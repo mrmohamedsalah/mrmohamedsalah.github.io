@@ -1,0 +1,300 @@
+body{background-image: url("img/back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:repeat-y;
+    Margin: 0px;
+    Padding: 0px;
+    Width: 100%;
+    font-family: 'Poppins', sans-serif;
+} 
+ header{
+    background-color: white;
+    display: flex;
+    width: 98%;
+    direction: rtl;
+    border-radius: 0px 0px 35px 35px;
+    padding: 16px;
+    align-items: center;
+    opacity: 0.8;
+}
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    border: 2px solid;
+    right: 20px;
+    top: 20px;
+    border-radius: 50px;
+    color: rgb(0 , 0, 150,80%);
+}
+label:before{
+    position: absolute;
+    width: 20px;
+    content: "";
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background:rgb(0 , 0, 150,80%) ;
+    transition: 0.4s;
+    left: 1px;
+    top: 1px;
+}
+label.active:before{
+    left: 24px;
+    background: black;
+}
+body.night header{
+    background-color: black;
+}
+body.night header a{
+    color: rgb(0 , 0, 150,80%);
+}
+body.night pre{
+    color: white;
+}
+body.night label:before{
+    background-color: rgb(0 , 0, 150,80%) ;
+}
+body.night .time_table2{
+    background-color: rgb(0 , 0, 0,80%);
+}
+body.night .card{
+    background-color: rgb(0 , 0, 0,80%);
+}
+body.night footer{
+    background-color: rgb(0 , 0, 0,80%);
+    color: white;
+}
+body.night .head{
+    background-color: rgb(255, 255,255,80%);
+    color: rgb(0, 0, 0);
+}
+body.night .h{
+    color: rgb(0, 0, 0 ,80%);
+
+}
+body.night  .content a{
+    color: white;
+}
+body.night  .content a:hover{
+    color: blueviolet;
+}
+body.night .info p{
+    color:white;
+}
+pre{
+    
+    font-weight: 900;
+    margin-left: -40px;
+    font-size: 22px;
+    margin-top: -50px;
+}
+.away{
+    margin-left: 81%;
+}
+.c2{
+padding-left: 65px;
+}
+.c2-2{
+    margin-left: 87%;
+}
+.c3{
+    padding-left: 35px;
+}
+.c3-3{
+    margin-left: 80%;
+}
+.c1{
+padding-left: 25px;
+}
+.c1-1{
+    margin-left: 83%;
+}
+.search{
+    
+    background-color:rgb(245 , 245, 245);
+    margin-right: 70px;
+    height: 28px;
+    border-radius: 30px;
+}
+header a{
+    color: rgb(0 , 0, 150,80%);
+    font-size: 28px; 
+    text-decoration: none;
+    font-weight: 700;
+    padding-right: 30px;
+}
+hr{
+    width: 90%;
+    background: black;
+    border-radius: 40px;
+    height: 10px;
+    opacity: 0.6;
+    margin-top:50px ;
+}
+ 
+.lnk a{
+    color:rgb(0 , 0, 150,80%);
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 30px ;   
+}
+.lnk a:hover{
+    color: blueviolet;
+
+}
+
+.head{
+    margin: 15px 0 0 31%;
+    background-color:rgb(0 , 0, 150,80%);
+    width: fit-content;
+    color: white;
+    opacity: 0.8;
+    padding: 15px;
+    border-radius: 40px;
+}
+.h{
+    color: rgb(255 , 255, 255,80%);
+    margin-left: 50px;
+    font-size: 150px;
+}
+.time{
+    background-color:darkblue;
+    opacity: 0.8;
+    height: 200px;
+    color: white;
+    margin:10px 0 0 39%;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 40px;
+    text-align: center;
+  
+}
+.right{
+    margin-left: 30%;
+    
+    margin-top: -80px;
+    width: 100px;
+    height: 100px;    
+}
+
+.left{
+    margin-top: -80px;
+    width: 100px;
+    height: 100px;
+}
+.time2{
+    background-color: darkblue;
+    opacity: 0.8;
+    margin-left: 26%;
+    color: white;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 40px;
+}
+.time_table{
+    margin: 50px 0 0px 0;
+    display: flex;
+}
+.time_table2{
+    margin-top: 20px;
+    margin-left: 27%;
+    align-items: center;
+    border-radius: 100px;
+    height: 200px;
+    width: 43%;
+    padding: 60px;
+    background-color: rgb(255, 255, 255,60%);
+}
+
+
+
+
+
+
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color:rgb(0, 0, 139,80%);
+    font-size: 2.2em;
+    font-weight: 800;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.card{
+    background-color: rgb(255, 255, 255, 60%);
+    width: 19.25em;
+    color:black;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 100%);
+    border-radius: 20px ;
+    padding: 30px;
+    transition: 0.8s ease;
+    margin-bottom: 50px;
+    text-shadow: #790f0f;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+   color:goldenrod;
+    font-size: 8em;
+    text-align: center;
+}
+.info .cpntact a{
+color:black;
+padding-right: 0;
+font-size: 1.4em;
+text-align: center;
+font-weight: 500;
+margin: 10px;
+
+
+
+}
+.info p{
+    color: black;
+    padding-left: 10px; 
+}
+
+
+ .content a:hover{
+    color: blueviolet;
+    opacity: 0.8;
+
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
+.fas {
+    font-weight: 700;
+}
+footer{
+    color: black;
+    background-color: rgb(255, 255, 255,60%);
+    display: flex;
+    padding: 15px;
+    border-radius: 20px 20px 0 0;
+ }  
+.foot{
+    padding-left: 44%;
+ 
+}
+.foot2{
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    text-align: center;
+}
