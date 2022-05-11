@@ -1,0 +1,296 @@
+body{
+    background-image: url("../images/back5.jpg");
+    background-position: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    Margin: 0px;
+    Padding: 0px;
+    Width: 100%;
+    font-family: 'Poppins', sans-serif;
+} 
+ header{
+    display: flex;
+    width: 98%;
+    direction: rtl;
+    border-radius: 0 0 40px 40px;
+    padding: 16px;
+    margin-top:  10px; 
+    position: fixed;
+    align-items: center;
+    opacity: 0.8;
+}
+
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    border: 2px solid;
+    right: 20px;
+    top: 20px;
+    border-radius: 50px;
+    color: white;
+}
+label:before{
+    position: absolute;
+    width: 20px;
+    content: "";
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background:white ;
+    transition: 0.4s;
+    left: 1px;
+    top: 1px;
+}
+label.active:before{
+    left: 24px;
+    background: rgb(194, 153, 100);
+}
+body.night label{
+    color: rgb(194, 153, 100);
+}
+body.night header a{
+    color: rgb(194, 153, 100);
+
+}
+body.night .head1{
+    color: rgb(194, 153, 100);
+    
+}body.night .ca{
+    background-color: rgb(0,0,0,60%);
+    
+}body.night .card{
+    background-color: rgb(0,0,0,60%);
+    color: rgb(194, 153, 100);
+}body.night .in h3 a{
+    color: rgb(194, 153, 100);
+    
+}body.night .info h3 a{
+    color: rgb(194, 153, 100);
+    
+}body.night .info h3 a:hover{
+    color: blueviolet;
+}body.night .in h3 a:hover{
+    color: blueviolet;
+}body.night .more{
+    color:rgb(194, 153, 100) ;
+    
+}
+body.night .title{
+    color:rgb(194, 153, 100) ;
+    
+}
+body.night footer{
+    color:rgb(194, 153, 100) ;
+    background-color: rgb(0,0,0,60%);
+
+    
+}
+body.night .main{
+    background-color: rgb(0,0,0,60%);
+    color: white;
+}
+
+.search{
+    background-color:rgb(255, 255, 255);
+    margin-right: 70px;
+    height: 28px;
+    border-radius: 30px;
+}
+header a{
+    color: white;
+    font-size: 28px; 
+    text-decoration: none;
+    font-weight: 700;
+    padding-right: 30px;
+}
+.lnk a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 30px ;   
+}
+.lnk a:hover{
+    color: blueviolet;
+}
+.head1{
+    padding: 150px 50px;
+    margin-top: -10px;    
+    color: white;
+    direction: ltr;
+    margin-bottom: -50px;
+    font-size: 150px;
+    font-weight: 700;
+}
+.head2{
+    background-color:rgb(222, 184, 135,60%) ;
+    font-size: 31px;
+    width: fit-content;
+    padding: 15px;
+    margin-left: 55px;
+    border-radius: 50px;
+
+    
+}
+.main{
+    padding: 100px;
+    margin-left: 210px;
+    align-items: center;
+    border-radius: 30px;
+    width: 60%;
+    color: black;
+    background-color: rgb(255, 255, 255, 60%);
+}
+.img{
+    margin-left: 210px;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+.pragraph{
+    direction: rtl;
+    
+    margin-left: 10px;
+    font-size: 24px;
+}
+.more{
+    color: antiquewhite;
+    font-size: 2.2em;
+    direction: rtl;
+    padding-right: 150px;
+    opacity: 0.8;
+    margin: 70px 32% 40px;
+}
+.ca{
+    background-color: rgb(255,255, 255,60%);
+    opacity: 0.85;
+    width: 21.25em;
+    height: 21.25em;
+    box-shadow: 0 5px 20px rgba(1, 1, 1, 30%);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 15px;
+    transition: 0.8s ease;
+    text-shadow: #790f0f;
+ }
+.ca:hover{
+    transform: scale(1.1);
+ }
+ 
+ span{
+    margin-left: 50px;
+}
+ .in h3 a{
+    padding: 0;
+    margin-left: 10px;
+    font-size: 28px;
+    color: black;
+    font-weight: 700;
+}
+.in h3 a:hover{
+    color: blueviolet;
+}
+
+.im{
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-bottom:10px;
+    width: 25em;
+    border-radius: 20px 20px 0px 0px;
+    height: 18.25em;
+ }
+.title{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color:antiquewhite;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.card{
+    background-color: rgb(255, 255, 255,60%);
+    width: 19.25em;
+    color: black;
+    box-shadow: 0 5px 20px rgba(1, 1, 1, 30%);
+    border-radius: 18px 15px;
+    padding: 30px;
+    margin: 15px;
+    transition: 0.8s ease;
+    text-shadow: #790f0f;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+   color:goldenrod;
+    font-size: 8em;
+    text-align: center;
+}
+.info h3 a{
+    color: black;
+}
+.info h3 {
+    
+    padding-right: 10px;
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px;
+}
+.info p{
+    font-size: 20px;
+    padding-left: 10px; 
+}
+.info h3 a:hover{
+    color:blueviolet;
+    opacity: 0.8;
+}
+h3 a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.fas {
+    font-weight: 700;
+}
+footer{
+    color: black;
+    background-color:rgb(255, 255, 255,60%) ;
+    display: flex;
+    padding: 15px;
+    border-radius: 65px 65px 0 0;
+    margin-top: 30px;
+    opacity: 0.8;
+ }  
+.foot{
+    padding-left: 34%;
+}
+.foot2{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+i{
+    
+    color: black;
+    margin: 20px 0 0 20px;
+    font-size: 30px;
+}
+i:hover{
+    color: blueviolet;
+
+}
+body.night i{
+    color: rgb(194, 153, 100);
+}
+body.night i:hover{
+    color: blueviolet;
+}
