@@ -232,3 +232,102 @@ footer {
     padding: 0;
     margin: 0;
 }
+.info a {
+ text-decoration: none;
+ margin-left:90px;
+ color:  rgb(229, 211, 188); 
+}
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    border: 2px solid;
+    right: 20px;
+    top: 20px;
+    border-radius: 50px;
+    color: white;
+}
+label:before{
+    position: absolute;
+    width: 20px;
+    content: "";
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background:white ;
+    transition: 0.4s;
+    left: 1px;
+    top: 1px;
+}
+label.active:before{
+    left: 24px;
+    background: black;
+}
+body.night{
+    background:black;
+    opacity: 1;
+}
+body.night p{ 
+    color: white;
+    opacity: 1;
+}
+body.night h2{
+    color: rgb(0, 0, 200);
+
+}
+body.night header a{
+    color: black;
+    opacity: 1;
+}
+body.night label{ 
+    color: black;
+    opacity: 1;
+}
+body.night header{
+    background-color: white;
+    opacity: 1;
+}
+body.night .card{
+    background-color: white;
+    opacity: 1;
+}
+body.night .ca{
+background-color: white ;
+opacity: 1;
+}
+body.night hr{
+background-color: white;
+opacity: 1;
+}
+body.night footer{
+    background-color: white;
+    opacity: 1;
+}
+body.night footer p{
+    color: black;
+    opacity: 1;
+}
+body.night .in h3 a{
+    color: black;
+    opacity: 1;
+}
+body.night .info h3 a{
+    color: black;
+    opacity: 1;
+
+}
+body.night .info p{
+    color: black;
+    opacity: 1;
+
+}
+body.night .more{
+    color: rgb(0, 0, 200);
+    
+}
+body.night .in h3 a:hover{
+    color: blueviolet;
+}
+body.night .head1{
+    color: white;
+}
