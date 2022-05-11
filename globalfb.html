@@ -11,6 +11,7 @@
 
 <body>
     <header>
+        <label id="darkmood"></label>
         <a href="#" class="logo">عالم الرياضة</a>
         <nav class="navigation">
             <a href="main-page.html">الصفحة الرئيسية</a>
@@ -115,6 +116,12 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
         }
+                var content = document.getElementsByTagName('body')[0];
+var darkMood =document.getElementById('darkmood');
+darkMood.addEventListener('click',function(){
+    darkMood.classList.toggle('active');
+    content.classList.toggle('night')
+})
     </script>
 </body>
 
