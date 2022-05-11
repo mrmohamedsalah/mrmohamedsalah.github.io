@@ -300,27 +300,7 @@ footer{
   input:checked + .slider:before {
     transform: translateX(26px);
   }
-  .dark-mode {
-    background: grey;
-    color:grey;
-      font-weight: 700;
-       font-size:10.5px;
-  }
-  .dark-mode h1 {
-    color: rgb(151, 98, 6);
-    font-size:10.5px;
-      
-  }
-.dark-mode body{
-   color:purple;
-    font-weight:600;
-    back-ground:grey;
-    
-}
-.dark-mode footer{
-    color:black;
-    back-ground: grey;
-}
+
 
 
   .about a{
