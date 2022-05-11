@@ -338,3 +338,56 @@ footer{
  .emojy1{
      color: yellow;
  }
+  .dark-mode  .cards-contact {
+    background: rgb(0, 0, 0);
+  }
+ .dark-mode footer{
+    background-color:#790f0f;
+    opacity: 0.8;
+  }
+  .dark-mode .card{
+    background-color: white;
+    color: #790f0f;
+    font-weight: 900;
+    font-size: 1.2em;
+  }
+  .dark-mode .card a{
+    color:  #790f0f;  
+}
+.dark-mode .project-card{
+    background-color: black;
+    color:#213c80;
+}
+.dark-mode .project-card p{
+ color: white;
+}
+.dark-mode .icon {
+    color:#790f0f;
+}
+.dark-mode .emojy1{
+    color:#790f0f;
+}
+  .dark-mode h1 {
+    color: rgb(151, 98, 6);
+  }
+  .dark-mode .football{
+      background-color: #790f0f;
+  }
+  .dark-mode .projects{
+      background-color: white;
+  }
+  .dark-mode header{
+    color: white;
+    background-color:#790f0f;
+    opacity: 0.9;
+  }
+  .dark-mode section .social a{
+   
+    color: #790f0f;
+  }
+  .dark-mode #container h1{
+      color: #050506;
+  }
+   .dark-mode header a {
+       color: #050506;
+   }
