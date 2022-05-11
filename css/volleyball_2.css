@@ -138,7 +138,7 @@ hr{
     color: blueviolet;
 }
 .head1{
-    background-image: url("images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-position: center;
     border-radius: 0 0 50px 50px;
     background-attachment: fixed;
