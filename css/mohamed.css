@@ -303,7 +303,8 @@ footer{
   .dark-mode {
     background: grey;
     color:grey;
-      
+      font-weight: 700;
+       font-size:10.5px;
   }
   .dark-mode h1 {
     color: rgb(151, 98, 6);
